@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://nkvl.xyz/posts/</loc>
+    <lastmod>2020-07-05T14:06:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nkvl.xyz/now/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nkvl.xyz/about/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nkvl.xyz/posts/hello-world/</loc>
+    <lastmod>2020-07-05T14:06:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nkvl.xyz/</loc>
+    <lastmod>2020-06-28T19:47:07+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nkvl.xyz/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nkvl.xyz/tags/</loc>
+  </url>
+  
+</urlset>
