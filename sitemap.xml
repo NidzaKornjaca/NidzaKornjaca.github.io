@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://nkvl.xyz/posts/</loc>
-    <lastmod>2020-07-05T14:06:17+02:00</lastmod>
+    <lastmod>2020-07-18T23:33:13+02:00</lastmod>
   </url>
   
   <url>
@@ -18,8 +18,18 @@
   </url>
   
   <url>
-    <loc>http://nkvl.xyz/posts/hello-world/</loc>
-    <lastmod>2020-07-05T14:06:17+02:00</lastmod>
+    <loc>http://nkvl.xyz/tags/habits/</loc>
+    <lastmod>2020-07-18T23:33:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nkvl.xyz/posts/habits-you-are-what-you-do/</loc>
+    <lastmod>2020-07-18T23:33:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nkvl.xyz/tags/</loc>
+    <lastmod>2020-07-18T23:33:13+02:00</lastmod>
   </url>
   
   <url>
@@ -29,10 +39,6 @@
   
   <url>
     <loc>http://nkvl.xyz/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://nkvl.xyz/tags/</loc>
   </url>
   
 </urlset>
