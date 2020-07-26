@@ -13,6 +13,95 @@
    
    
      <item>
+       <title>Retrying after the inevitable failure: Idempotent HTTP Requests</title>
+       <link>http://nkvl.xyz/posts/idempotent-http-requests-intro/</link>
+       <pubDate>Sun, 19 Jul 2020 15:32:00 +0200</pubDate>
+       
+       <guid>http://nkvl.xyz/posts/idempotent-http-requests-intro/</guid>
+       <description>&lt;p&gt;Idempotence, while it may sound like something men get in their fifties, is a common property among
+web service resources. Many times it&amp;rsquo;s a given, but sometimes
+you need to explicitly facilitate it yourself due to specific business and
+reliability requirements. This post aims to clarify what is idempotence and
+how the property provides certain safety guarantees which help us develop
+more reliable and predictable web services. A subsequent post will detail how
+one can implement idempotence for endpoints which don&amp;rsquo;t implicitly provide it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A request is idempotent if the intended effect of multiple identical
+requests is the same as the effect of one such request.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From the previous definition read-only
+requests are clearly idempotent. Additionally, &lt;code&gt;DELETE&lt;/code&gt; and &lt;code&gt;PUT&lt;/code&gt; requests
+should be implemented as such according to RFC7231. Lets break it down.&lt;/p&gt;
+&lt;h2 id=&#34;idempotent-requests&#34;&gt;Idempotent requests&lt;/h2&gt;
+&lt;p&gt;A read-only request like &lt;code&gt;HEAD&lt;/code&gt;, &lt;code&gt;GET&lt;/code&gt; or &lt;code&gt;OPTIONS&lt;/code&gt; does not - in general - modify
+the applications state. They might produce some side-effects like
+writing access logs, but all in all they&amp;rsquo;re &lt;em&gt;intended&lt;/em&gt; for transfering, not changing, state.
+No effect is the same effect, so they are idempotent.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; and &lt;code&gt;DELETE&lt;/code&gt; on the other hand, are intended for state modification. Intuitively:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;PUT&lt;/code&gt; should upsert a completely defined object. Calling PUT on the same resource with the same payload
+several times should result in just one object with the given data existing. The first PUT creating
+the object and the following ones updating it - but given that the payload is the same, the state
+effectively remains the same.&lt;/li&gt;
+&lt;li&gt;Calling &lt;code&gt;DELETE&lt;/code&gt; on a uniquely identifiable object results in the deletion of &lt;em&gt;just&lt;/em&gt; that object. While
+sending a &lt;code&gt;DELETE&lt;/code&gt; request on an endpoint several times might end up with a different response - the state
+remains the same. You can&amp;rsquo;t really delete the same object twice.
+Bulk delete semantics sometimes break this rule depending on the implementation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-are-non-idempotent-requests&#34;&gt;What are non-idempotent requests?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A request which increments a counter. Every subsequent call will increment the number, resulting in a different state each time.&lt;/li&gt;
+&lt;li&gt;A request which exclusively adds to a collection. E.g. adding a comment to a BBS or adding a post to Facebook. POSTing a comment twice
+results in duplicate comments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Generalizing - a non-idempotent request, when performed multiple times
+with the same payload, results in multiple application state modifications.&lt;/p&gt;
+&lt;h2 id=&#34;why-idempotence-matters&#34;&gt;Why idempotence matters?&lt;/h2&gt;
+&lt;p&gt;Idempotence gives the client the ability to repeat a request without fear of causing trouble. This
+creates a more predictable, smoother and user friendly experience by reducing the problems
+user or network errors might introduce.&lt;/p&gt;
+&lt;p&gt;Lets examine a few scenarios.&lt;/p&gt;
+&lt;h3 id=&#34;adding-a-post-to-a-website&#34;&gt;Adding a post to a website&lt;/h3&gt;
+&lt;p&gt;A user is attempting to write a post to their website via a CMS. The admin
+panel does so by sending a &lt;code&gt;POST&lt;/code&gt; request to a specific resource on the server. The
+&lt;code&gt;POST&lt;/code&gt; semantics are idempotent - specifically, the app sends the
+title of the post, a description, the post itself, and a unique slug.
+The slug uniquely identifies the post on the website.
+An impatient user clicks the post button again, which sends another request to the server - this request is rejected
+because a post with this slug already exists.
+After a while, just one post appears.&lt;/p&gt;
+&lt;p&gt;If the service didn&amp;rsquo;t provide an idempotent resource for this action, this would
+result in two posts being added to the website, with the user being forced to fix the problem
+manually themselves. E.g. if instead of having an explicit, user set identifier - the slug - the
+server itself generated a slug or other unique ID for the post.&lt;/p&gt;
+&lt;h3 id=&#34;sending-a-money-transfer-request-to-a-payment-api&#34;&gt;Sending a money transfer request to a payment API&lt;/h3&gt;
+&lt;p&gt;Lets say your server is the back-end of a shopping website. You
+manage user accounts, listings and shopping carts. Without idempotent
+semantics, a user can order the same stuff multiple times by accident. Or even worse
+your service might end up double or triple billing the same order, if not written very carefully to
+mitigate any networking issues in communication to the third party service. Retrying requests to
+the payment processor becomes non-trivial, prone to error and provider specific.
+On the other hand, with idempotent
+semantics you can rest assured the payment is guaranteed to occur only once with
+many requests.&lt;/p&gt;
+&lt;p&gt;Compared to the previous example, double billing or double ordering is a far more significant
+problem - in a lot of cases it&amp;rsquo;s very undesirable, needs a lot of steps to mitigate, and
+depending on the transaction, can be very damaging to the reputation of a company.&lt;/p&gt;
+&lt;h2 id=&#34;wrap-up&#34;&gt;Wrap-up&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Idempotence can prevent user errors and mitigate networking issues by ensuring that
+a given action results in the same state, no matter how many times we retry it.&lt;/li&gt;
+&lt;li&gt;Some errors can be costlier that others, with the benefits of idempotence easily outweighing
+the costs of implementation.&lt;/li&gt;
+&lt;li&gt;With that in mind, when choosing third-party providers, it may be wise to consider idempotence -
+especially with payment APIs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In one of my next posts I will provide an example how you can make a non-idempotent
+resource idempotent by adding an &lt;code&gt;IdempotenceID&lt;/code&gt; header to the interface. Stay tuned!&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
        <title>Habits: You are what you do</title>
        <link>http://nkvl.xyz/posts/habits-you-are-what-you-do/</link>
        <pubDate>Sat, 18 Jul 2020 23:33:13 +0200</pubDate>
