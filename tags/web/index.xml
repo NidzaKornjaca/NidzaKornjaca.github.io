@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
    <title>web on nkvl</title>
-   <link>http://nkvl.xyz/tags/web/</link>
+   <link>https://nkvl.xyz/tags/web/</link>
    <description>Recent content in web on nkvl</description>
    <generator>Hugo -- gohugo.io</generator>
    <language>en-us</language>
    <copyright>Copyright &amp;copy; 2022 - Nikola Vlahovic</copyright>
    <lastBuildDate>Sun, 19 Jul 2020 15:32:00 +0200</lastBuildDate>
    
-       <atom:link href="http://nkvl.xyz/tags/web/index.xml" rel="self" type="application/rss+xml" />
+       <atom:link href="https://nkvl.xyz/tags/web/index.xml" rel="self" type="application/rss+xml" />
    
    
      <item>
        <title>Retrying after the inevitable failure: Idempotent HTTP Requests</title>
-       <link>http://nkvl.xyz/posts/idempotent-http-requests-intro/</link>
+       <link>https://nkvl.xyz/posts/idempotent-http-requests-intro/</link>
        <pubDate>Sun, 19 Jul 2020 15:32:00 +0200</pubDate>
        
-       <guid>http://nkvl.xyz/posts/idempotent-http-requests-intro/</guid>
+       <guid>https://nkvl.xyz/posts/idempotent-http-requests-intro/</guid>
        <description>&lt;p&gt;Idempotence, while it may sound like something men get in their fifties, is a common property among
 web service resources. Many times it&amp;rsquo;s a given, but sometimes
 you need to explicitly facilitate it yourself due to specific business and
@@ -103,10 +103,10 @@ resource idempotent by adding an &lt;code&gt;IdempotenceID&lt;/code&gt; header t
    
      <item>
        <title>Habits: You are what you do</title>
-       <link>http://nkvl.xyz/posts/habits-you-are-what-you-do/</link>
+       <link>https://nkvl.xyz/posts/habits-you-are-what-you-do/</link>
        <pubDate>Sat, 18 Jul 2020 23:33:13 +0200</pubDate>
        
-       <guid>http://nkvl.xyz/posts/habits-you-are-what-you-do/</guid>
+       <guid>https://nkvl.xyz/posts/habits-you-are-what-you-do/</guid>
        <description>&lt;p&gt;At some point in our lives, we are forced to face one simple truth - the time
 we have on this earth is valuable and finite. Let&amp;rsquo;s face it. Not a single
 person was documented to live forever so far - the best offer I&amp;rsquo;ve seen only applies
