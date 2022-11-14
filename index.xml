@@ -13,6 +13,32 @@
    
    
      <item>
+       <title>Blog Update #1</title>
+       <link>https://nkvl.xyz/posts/blog-update-1/</link>
+       <pubDate>Mon, 14 Nov 2022 00:00:00 +0100</pubDate>
+       
+       <guid>https://nkvl.xyz/posts/blog-update-1/</guid>
+       <description>&lt;p&gt;This website has been inactive for quite a while now.
+&amp;ldquo;This is about to change!&amp;quot;, said the heart.
+But you and I know better than that.&lt;/p&gt;
+&lt;p&gt;The rhythm of posts will continue to be sporadic.
+New articles will show up every other now-and-then,
+and most probably not on a Monday.
+I&amp;rsquo;ll negotiate with heart on the precise
+details and inform you in due time.&lt;/p&gt;
+&lt;p&gt;Speaking of, the blog was due some minor maintenance.&lt;/p&gt;
+&lt;h2 id=&#34;minor-maintenance&#34;&gt;Minor Maintenance&lt;/h2&gt;
+&lt;h3 id=&#34;https-only&#34;&gt;HTTPS only&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve enabled &lt;code&gt;Enforce HTTPS only&lt;/code&gt; on Github Pages.
+That was so easy, I don&amp;rsquo;t know why I haven&amp;rsquo;t done this before.
+It&amp;rsquo;s literally a checkbox.&lt;/p&gt;
+&lt;h3 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h3&gt;
+&lt;p&gt;Take a look at the updated privacy policy. I don&amp;rsquo;t
+collect your data, but my hosting provider does.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
        <title>Retrying after the inevitable failure: Idempotent HTTP Requests</title>
        <link>https://nkvl.xyz/posts/idempotent-http-requests-intro/</link>
        <pubDate>Sun, 19 Jul 2020 15:32:00 +0200</pubDate>
