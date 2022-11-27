@@ -13,6 +13,78 @@
    
    
      <item>
+       <title>Blogging should be simple</title>
+       <link>https://nkvl.xyz/posts/blogging-should-be-simple/</link>
+       <pubDate>Sun, 27 Nov 2022 00:00:00 +0100</pubDate>
+       
+       <guid>https://nkvl.xyz/posts/blogging-should-be-simple/</guid>
+       <description>&lt;p&gt;While designing this blog I&amp;rsquo;ve experimented
+with fonts from Google Fonts, which is a service
+providing a trove of wonderful typefaces. Eventually, I found
+something fitting and added them to my website.&lt;/p&gt;
+&lt;p&gt;Soon, I got rid of them.&lt;/p&gt;
+&lt;p&gt;The names are still there, so if you happen to have them
+on your device, the site will look how I originally envisioned.
+I&amp;rsquo;m considering removing even those.
+The experience is now mainly designed for the humble and widely distributed
+&amp;ldquo;Liberation&amp;rdquo;, &amp;ldquo;Arial&amp;rdquo; and &amp;ldquo;Times New Roman&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;None of these fonts are provided for you when accessing the website.
+If you don&amp;rsquo;t happen to have any of them - I hope you&amp;rsquo;ll enjoy
+whatever fallback your environment is equipped with.&lt;/p&gt;
+&lt;p&gt;Benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Time and bandwidth dedicated to fonts reduced by a 100%.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now that the investors are convinced, here are the real reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I&amp;rsquo;ve read there are some issues&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+with the Google Fonts privacy policy and GDPR.
+Apparently some efforts were made to alleviate them,
+though I don&amp;rsquo;t know what&amp;rsquo;s become of it.&lt;/li&gt;
+&lt;li&gt;I couldn&amp;rsquo;t be bothered to look for alternative providers or
+explore the precise details for distribution licensing of the specific fonts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I don&amp;rsquo;t want to facilitate the collection of your personal
+data. I care about my privacy, and I wish to extend that care
+to the wonderful people visiting my little e-garden.&lt;/p&gt;
+&lt;h2 id=&#34;maybe-you-dont-need-fancy-fonts&#34;&gt;Maybe you don&amp;rsquo;t need fancy fonts&lt;/h2&gt;
+&lt;p&gt;My design goals could be summarized as:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Maintainability.&lt;/li&gt;
+&lt;li&gt;Readability.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Earlier this month, when it came to me in a dream that I should
+make a blog, it turned out some dude already booked the domain I wanted.
+It was past me.
+He thought this operation would not need any docs,
+while I wished he prepared for the worst.&lt;/p&gt;
+&lt;p&gt;Fortunately, not much to learn, and nothing broke.
+This could&amp;rsquo;ve been a different story if there were more moving parts.&lt;/p&gt;
+&lt;p&gt;But lets say I know all my libraries, build tools etc. and somehow they remained
+stable for 2 years. Everything is properly documented.
+The following is a non-exhaustive list of what else could change:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The dependencies could vanish from the CDNs.&lt;/li&gt;
+&lt;li&gt;The CDNs could vanish.&lt;/li&gt;
+&lt;li&gt;Your hosting provider could vanish.&lt;/li&gt;
+&lt;li&gt;The privacy policies of the above.&lt;/li&gt;
+&lt;li&gt;Licenses for the libraries and fonts.&lt;/li&gt;
+&lt;li&gt;Local laws.&lt;/li&gt;
+&lt;li&gt;What &amp;ldquo;local&amp;rdquo; is.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Keep it simple, if you can.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://rewis.io/s/u/zH2/&#34;&gt;GDPR ruling for serving a website with fonts from Google Fonts&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+     </item>
+   
+     <item>
        <title>Blog Update #1</title>
        <link>https://nkvl.xyz/posts/blog-update-1/</link>
        <pubDate>Mon, 14 Nov 2022 00:00:00 +0100</pubDate>
