@@ -110,23 +110,22 @@ collect your data, but my hosting provider does.&lt;/p&gt;
      </item>
    
      <item>
-       <title>Retrying after the inevitable failure: Idempotent HTTP Requests</title>
+       <title>On Idempotent HTTP Requests</title>
        <link>https://nkvl.xyz/posts/idempotent-http-requests-intro/</link>
        <pubDate>Sun, 19 Jul 2020 15:32:00 +0200</pubDate>
        
        <guid>https://nkvl.xyz/posts/idempotent-http-requests-intro/</guid>
-       <description>&lt;p&gt;Idempotence, while it may sound like something men get in their fifties, is a common property among
+       <description>&lt;p&gt;Idempotence is a common property among
 web service resources. Many times it&amp;rsquo;s a given, but sometimes
 you need to explicitly facilitate it yourself due to specific business and
 reliability requirements. This post aims to clarify what is idempotence and
 how the property provides certain safety guarantees which help us develop
-more reliable and predictable web services. A subsequent post will detail how
-one can implement idempotence for endpoints which don&amp;rsquo;t implicitly provide it.&lt;/p&gt;
+more reliable and predictable web services.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A request is idempotent if the intended effect of multiple identical
 requests is the same as the effect of one such request.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;From the previous definition read-only
+&lt;p&gt;From the previous definition, read-only
 requests are clearly idempotent. Additionally, &lt;code&gt;DELETE&lt;/code&gt; and &lt;code&gt;PUT&lt;/code&gt; requests
 should be implemented as such according to RFC7231. Lets break it down.&lt;/p&gt;
 &lt;h2 id=&#34;idempotent-requests&#34;&gt;Idempotent requests&lt;/h2&gt;
@@ -193,21 +192,21 @@ the costs of implementation.&lt;/li&gt;
 &lt;li&gt;With that in mind, when choosing third-party providers, it may be wise to consider idempotence -
 especially with payment APIs.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In one of my next posts I will provide an example how you can make a non-idempotent
-resource idempotent by adding an &lt;code&gt;IdempotenceID&lt;/code&gt; header to the interface. Stay tuned!&lt;/p&gt;
+&lt;h2 id=&#34;authors-note&#34;&gt;Authors Note&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;On 2022-11-27, the title was changed from &amp;ldquo;Retrying after the inevitable failure: Idempotent HTTP Requests&amp;rdquo;
+to &amp;ldquo;On Idempotent HTTP Requests&amp;rdquo;. Along some other minor editorial changes,
+I&amp;rsquo;ve also removed the announcements for another post demoing an implementation
+since I&amp;rsquo;m focusing on other things right now.&lt;/em&gt;&lt;/p&gt;
 </description>
      </item>
    
      <item>
-       <title>The compounding of habits</title>
+       <title>The Compounding of Habits</title>
        <link>https://nkvl.xyz/posts/habits-you-are-what-you-do/</link>
        <pubDate>Sat, 18 Jul 2020 23:33:13 +0200</pubDate>
        
        <guid>https://nkvl.xyz/posts/habits-you-are-what-you-do/</guid>
-       <description>&lt;p&gt;&lt;em&gt;Authors Note: This post was edited on 2022-11-27, cleaning up some sentences
-and changing the title from the pretentious and nonsensical &amp;ldquo;Habits: You are what you do&amp;rdquo;
-to &amp;ldquo;The compounding of habits&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;At some point in our lives, we are forced to face one simple truth - the time
+       <description>&lt;p&gt;At some point in our lives, we are forced to face one simple truth - the time
 we have on this earth is valuable and finite. Not a single
 person so far was documented to live forever - the best offer I&amp;rsquo;ve seen only applies
 &lt;em&gt;after&lt;/em&gt; we die.&lt;/p&gt;
@@ -262,6 +261,10 @@ by consistently committing to lot of small ones.&lt;/li&gt;
 &lt;li&gt;Your past self takes part in making certain decisions for the current you through your habits.&lt;/li&gt;
 &lt;li&gt;Repeating a habit is easier than acting against it.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;authors-note&#34;&gt;Authors Note&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This post was edited on 2022-11-27, cleaning up some sentences
+and changing the title from the pretentious and nonsensical &amp;ldquo;Habits: You are what you do&amp;rdquo;
+to &amp;ldquo;The Compounding of Habits&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
 </description>
      </item>
    

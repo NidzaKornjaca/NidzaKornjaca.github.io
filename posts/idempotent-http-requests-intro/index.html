@@ -7,16 +7,16 @@
   <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="The blog of Nikola Vlahovic - software engineer." />
-<meta name="author" content="Nikola Vlahovic" /><meta property="og:title" content="Retrying after the inevitable failure: Idempotent HTTP Requests" />
-<meta property="og:description" content="Idempotence, while it may sound like something men get in their fifties, is a common property among web service resources. Many times it&rsquo;s a given, but sometimes you need to explicitly facilitate it yourself due to specific business and reliability requirements." />
+<meta name="author" content="Nikola Vlahovic" /><meta property="og:title" content="On Idempotent HTTP Requests" />
+<meta property="og:description" content="Idempotence is a common property among web service resources. Many times it&rsquo;s a given, but sometimes you need to explicitly facilitate it yourself due to specific business and reliability requirements. This post aims to clarify what is idempotence and how the property provides certain safety guarantees which help us develop more reliable and predictable web services." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nkvl.xyz/posts/idempotent-http-requests-intro/" />
 <meta property="article:published_time" content="2020-07-19T15:32:00+02:00" />
 <meta property="article:modified_time" content="2020-07-19T15:32:00+02:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Retrying after the inevitable failure: Idempotent HTTP Requests"/>
-<meta name="twitter:description" content="Idempotence, while it may sound like something men get in their fifties, is a common property among web service resources. Many times it&rsquo;s a given, but sometimes you need to explicitly facilitate it yourself due to specific business and reliability requirements."/>
+<meta name="twitter:title" content="On Idempotent HTTP Requests"/>
+<meta name="twitter:description" content="Idempotence is a common property among web service resources. Many times it&rsquo;s a given, but sometimes you need to explicitly facilitate it yourself due to specific business and reliability requirements. This post aims to clarify what is idempotence and how the property provides certain safety guarantees which help us develop more reliable and predictable web services."/>
 
 <meta name="generator" content="Hugo 0.68.3" />
     
@@ -63,7 +63,7 @@
 
 <article>
 
-    <h1>Retrying after the inevitable failure: Idempotent HTTP Requests</h1>
+    <h1>On Idempotent HTTP Requests</h1>
 
     
       <aside class="meta-aside">
@@ -93,25 +93,24 @@
 
     
 <div class="featured_image">
-    <a href="https://nkvl.xyz/posts/idempotent-http-requests-intro/" title="Retrying after the inevitable failure: Idempotent HTTP Requests">
+    <a href="https://nkvl.xyz/posts/idempotent-http-requests-intro/" title="On Idempotent HTTP Requests">
         <img src="">
     </a>
 </div>
 
 
 
-    <p>Idempotence, while it may sound like something men get in their fifties, is a common property among
+    <p>Idempotence is a common property among
 web service resources. Many times it&rsquo;s a given, but sometimes
 you need to explicitly facilitate it yourself due to specific business and
 reliability requirements. This post aims to clarify what is idempotence and
 how the property provides certain safety guarantees which help us develop
-more reliable and predictable web services. A subsequent post will detail how
-one can implement idempotence for endpoints which don&rsquo;t implicitly provide it.</p>
+more reliable and predictable web services.</p>
 <blockquote>
 <p>A request is idempotent if the intended effect of multiple identical
 requests is the same as the effect of one such request.</p>
 </blockquote>
-<p>From the previous definition read-only
+<p>From the previous definition, read-only
 requests are clearly idempotent. Additionally, <code>DELETE</code> and <code>PUT</code> requests
 should be implemented as such according to RFC7231. Lets break it down.</p>
 <h2 id="idempotent-requests">Idempotent requests</h2>
@@ -178,8 +177,11 @@ the costs of implementation.</li>
 <li>With that in mind, when choosing third-party providers, it may be wise to consider idempotence -
 especially with payment APIs.</li>
 </ul>
-<p>In one of my next posts I will provide an example how you can make a non-idempotent
-resource idempotent by adding an <code>IdempotenceID</code> header to the interface. Stay tuned!</p>
+<h2 id="authors-note">Authors Note</h2>
+<p><em>On 2022-11-27, the title was changed from &ldquo;Retrying after the inevitable failure: Idempotent HTTP Requests&rdquo;
+to &ldquo;On Idempotent HTTP Requests&rdquo;. Along some other minor editorial changes,
+I&rsquo;ve also removed the announcements for another post demoing an implementation
+since I&rsquo;m focusing on other things right now.</em></p>
 
 
 </article>
@@ -189,7 +191,7 @@ resource idempotent by adding an <code>IdempotenceID</code> header to the interf
     <ul>
         
         <li>
-            <a href="https://nkvl.xyz/posts/habits-you-are-what-you-do/"><i class="fa fa-chevron-circle-left"></i> The compounding of habits</a>
+            <a href="https://nkvl.xyz/posts/habits-you-are-what-you-do/"><i class="fa fa-chevron-circle-left"></i> The Compounding of Habits</a>
         </li>
         
         
