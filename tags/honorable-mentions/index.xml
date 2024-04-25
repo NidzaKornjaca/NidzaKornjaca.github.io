@@ -1,0 +1,299 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+   <title>Honorable-Mentions on nkvl</title>
+   <link>http://localhost:1313/tags/honorable-mentions/</link>
+   <description>Recent content in Honorable-Mentions on nkvl</description>
+   <generator>Hugo -- gohugo.io</generator>
+   <language>en-us</language>
+   <copyright>Copyright &amp;copy; 2020-2024  Nikola Vlahovic</copyright>
+   <lastBuildDate>Thu, 25 Apr 2024 20:28:56 +0200</lastBuildDate>
+   
+       <atom:link href="http://localhost:1313/tags/honorable-mentions/index.xml" rel="self" type="application/rss+xml" />
+   
+   
+     <item>
+       <title>Honorable Mentions</title>
+       <link>http://localhost:1313/posts/2024-04-25-honorable-mentions/</link>
+       <pubDate>Thu, 25 Apr 2024 20:28:56 +0200</pubDate>
+       
+       <guid>http://localhost:1313/posts/2024-04-25-honorable-mentions/</guid>
+       <description>&lt;p&gt;Like most dark deniziens of the internet, I would likely turn to dust without
+frequent intravenous injections of data.
+After burning a sea of noise,
+the supplier brings a first class dose.&lt;/p&gt;
+&lt;p&gt;Provocative, inspiring, clever.
+Hilarious, surprising or just joyous.
+Some things I find worth remembering and passing on forward.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>Out of bounds</title>
+       <link>http://localhost:1313/posts/2024-04-25-what-we-face/</link>
+       <pubDate>Thu, 25 Apr 2024 19:51:21 +0200</pubDate>
+       
+       <guid>http://localhost:1313/posts/2024-04-25-what-we-face/</guid>
+       <description>&lt;p&gt;Filled with doubt, fear, and curiosity a mind is about to
+collide with what it perceives as it&amp;rsquo;s bounds.&lt;/p&gt;
+&lt;p&gt;Is this okay? Can I do this?&lt;/p&gt;
+&lt;p&gt;What if this wall never was there, and all my life I have been a fool?&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>Blogging should be simple</title>
+       <link>http://localhost:1313/posts/blogging-should-be-simple/</link>
+       <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+       
+       <guid>http://localhost:1313/posts/blogging-should-be-simple/</guid>
+       <description>&lt;p&gt;While designing this blog I&amp;rsquo;ve experimented
+with fonts from Google Fonts, which is a service
+providing a trove of wonderful typefaces. Eventually, I found
+something fitting and added them to my website.&lt;/p&gt;
+&lt;p&gt;Soon, I got rid of them.&lt;/p&gt;
+&lt;p&gt;The names are still there, so if you happen to have them
+on your device, the site will look how I originally envisioned.
+I&amp;rsquo;m considering removing even those.
+The experience is now mainly designed for the humble and widely distributed
+&amp;ldquo;Liberation&amp;rdquo;, &amp;ldquo;Arial&amp;rdquo; and &amp;ldquo;Times New Roman&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;None of these fonts are provided for you when accessing the website.
+If you don&amp;rsquo;t happen to have any of them - I hope you&amp;rsquo;ll enjoy
+whatever fallback your environment is equipped with.&lt;/p&gt;
+&lt;p&gt;Benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Time and bandwidth dedicated to fonts reduced by a 100%.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now that the investors are convinced, here are the real reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I&amp;rsquo;ve read there are some issues&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+with the Google Fonts privacy policy and GDPR.
+Apparently some efforts were made to alleviate them,
+though I don&amp;rsquo;t know what&amp;rsquo;s become of it.&lt;/li&gt;
+&lt;li&gt;I couldn&amp;rsquo;t be bothered to look for alternative providers or
+explore the precise details for distribution licensing of the specific fonts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I don&amp;rsquo;t want to facilitate the collection of your personal
+data. I care about my privacy, and I wish to extend that care
+to the wonderful people visiting my little e-garden.&lt;/p&gt;
+&lt;h2 id=&#34;maybe-you-dont-need-fancy-fonts&#34;&gt;Maybe you don&amp;rsquo;t need fancy fonts&lt;/h2&gt;
+&lt;p&gt;My design goals could be summarized as:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Maintainability.&lt;/li&gt;
+&lt;li&gt;Readability.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Earlier this month, when it came to me in a dream that I should
+make a blog, it turned out some dude already booked the domain I wanted.
+It was past me.
+He thought this operation would not need any docs,
+while I wished he prepared for the worst.&lt;/p&gt;
+&lt;p&gt;Fortunately, not much to learn, and nothing broke.
+This could&amp;rsquo;ve been a different story if there were more moving parts.&lt;/p&gt;
+&lt;p&gt;But lets say I know all my libraries, build tools etc. and somehow they remained
+stable for 2 years. Everything is properly documented.
+The following is a non-exhaustive list of what else could change:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The dependencies could vanish from the CDNs.&lt;/li&gt;
+&lt;li&gt;The CDNs could vanish.&lt;/li&gt;
+&lt;li&gt;Your hosting provider could vanish.&lt;/li&gt;
+&lt;li&gt;The privacy policies of the above.&lt;/li&gt;
+&lt;li&gt;Licenses for the libraries and fonts.&lt;/li&gt;
+&lt;li&gt;Local laws.&lt;/li&gt;
+&lt;li&gt;What &amp;ldquo;local&amp;rdquo; is.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Keep it simple, if you can.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://rewis.io/s/u/zH2/&#34;&gt;GDPR ruling for serving a website with fonts from Google Fonts&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>Blog Update #1</title>
+       <link>http://localhost:1313/posts/blog-update-1/</link>
+       <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
+       
+       <guid>http://localhost:1313/posts/blog-update-1/</guid>
+       <description>&lt;p&gt;This website has been inactive for quite a while now.
+&amp;ldquo;This is about to change!&amp;rdquo;, said the heart.
+But you and I know better than that.&lt;/p&gt;
+&lt;p&gt;The rhythm of posts will continue to be sporadic.
+New articles will show up every other now-and-then,
+and most probably not on a Monday.
+I&amp;rsquo;ll negotiate with heart on the precise
+details and inform you in due time.&lt;/p&gt;
+&lt;p&gt;Speaking of, the blog was due some minor maintenance.&lt;/p&gt;
+&lt;h2 id=&#34;minor-maintenance&#34;&gt;Minor Maintenance&lt;/h2&gt;
+&lt;h3 id=&#34;https-only&#34;&gt;HTTPS only&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve enabled &lt;code&gt;Enforce HTTPS only&lt;/code&gt; on Github Pages.
+That was so easy, I don&amp;rsquo;t know why I haven&amp;rsquo;t done this before.
+It&amp;rsquo;s literally a checkbox.&lt;/p&gt;
+&lt;h3 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h3&gt;
+&lt;p&gt;Take a look at the updated privacy policy. I don&amp;rsquo;t
+collect your data, but my hosting provider does.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>Retrying after the inevitable failure: Idempotent HTTP Requests</title>
+       <link>http://localhost:1313/posts/idempotent-http-requests-intro/</link>
+       <pubDate>Sun, 19 Jul 2020 15:32:00 +0200</pubDate>
+       
+       <guid>http://localhost:1313/posts/idempotent-http-requests-intro/</guid>
+       <description>&lt;p&gt;Idempotence, while it may sound like something men get in their fifties, is a common property among
+web service resources. Many times it&amp;rsquo;s a given, but sometimes
+you need to explicitly facilitate it yourself due to specific business and
+reliability requirements. This post aims to clarify what is idempotence and
+how the property provides certain safety guarantees which help us develop
+more reliable and predictable web services. A subsequent post will detail how
+one can implement idempotence for endpoints which don&amp;rsquo;t implicitly provide it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A request is idempotent if the intended effect of multiple identical
+requests is the same as the effect of one such request.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From the previous definition read-only
+requests are clearly idempotent. Additionally, &lt;code&gt;DELETE&lt;/code&gt; and &lt;code&gt;PUT&lt;/code&gt; requests
+should be implemented as such according to RFC7231. Lets break it down.&lt;/p&gt;
+&lt;h2 id=&#34;idempotent-requests&#34;&gt;Idempotent requests&lt;/h2&gt;
+&lt;p&gt;A read-only request like &lt;code&gt;HEAD&lt;/code&gt;, &lt;code&gt;GET&lt;/code&gt; or &lt;code&gt;OPTIONS&lt;/code&gt; does not - in general - modify
+the applications state. They might produce some side-effects like
+writing access logs, but all in all they&amp;rsquo;re &lt;em&gt;intended&lt;/em&gt; for transfering, not changing, state.
+No effect is the same effect, so they are idempotent.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; and &lt;code&gt;DELETE&lt;/code&gt; on the other hand, are intended for state modification. Intuitively:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;PUT&lt;/code&gt; should upsert a completely defined object. Calling PUT on the same resource with the same payload
+several times should result in just one object with the given data existing. The first PUT creating
+the object and the following ones updating it - but given that the payload is the same, the state
+effectively remains the same.&lt;/li&gt;
+&lt;li&gt;Calling &lt;code&gt;DELETE&lt;/code&gt; on a uniquely identifiable object results in the deletion of &lt;em&gt;just&lt;/em&gt; that object. While
+sending a &lt;code&gt;DELETE&lt;/code&gt; request on an endpoint several times might end up with a different response - the state
+remains the same. You can&amp;rsquo;t really delete the same object twice.
+Bulk delete semantics sometimes break this rule depending on the implementation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-are-non-idempotent-requests&#34;&gt;What are non-idempotent requests?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A request which increments a counter. Every subsequent call will increment the number, resulting in a different state each time.&lt;/li&gt;
+&lt;li&gt;A request which exclusively adds to a collection. E.g. adding a comment to a BBS or adding a post to Facebook. POSTing a comment twice
+results in duplicate comments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Generalizing - a non-idempotent request, when performed multiple times
+with the same payload, results in multiple application state modifications.&lt;/p&gt;
+&lt;h2 id=&#34;why-idempotence-matters&#34;&gt;Why idempotence matters?&lt;/h2&gt;
+&lt;p&gt;Idempotence gives the client the ability to repeat a request without fear of causing trouble. This
+creates a more predictable, smoother and user friendly experience by reducing the problems
+user or network errors might introduce.&lt;/p&gt;
+&lt;p&gt;Lets examine a few scenarios.&lt;/p&gt;
+&lt;h3 id=&#34;adding-a-post-to-a-website&#34;&gt;Adding a post to a website&lt;/h3&gt;
+&lt;p&gt;A user is attempting to write a post to their website via a CMS. The admin
+panel does so by sending a &lt;code&gt;POST&lt;/code&gt; request to a specific resource on the server. The
+&lt;code&gt;POST&lt;/code&gt; semantics are idempotent - specifically, the app sends the
+title of the post, a description, the post itself, and a unique slug.
+The slug uniquely identifies the post on the website.
+An impatient user clicks the post button again, which sends another request to the server - this request is rejected
+because a post with this slug already exists.
+After a while, just one post appears.&lt;/p&gt;
+&lt;p&gt;If the service didn&amp;rsquo;t provide an idempotent resource for this action, this would
+result in two posts being added to the website, with the user being forced to fix the problem
+manually themselves. E.g. if instead of having an explicit, user set identifier - the slug - the
+server itself generated a slug or other unique ID for the post.&lt;/p&gt;
+&lt;h3 id=&#34;sending-a-money-transfer-request-to-a-payment-api&#34;&gt;Sending a money transfer request to a payment API&lt;/h3&gt;
+&lt;p&gt;Lets say your server is the back-end of a shopping website. You
+manage user accounts, listings and shopping carts. Without idempotent
+semantics, a user can order the same stuff multiple times by accident. Or even worse
+your service might end up double or triple billing the same order, if not written very carefully to
+mitigate any networking issues in communication to the third party service. Retrying requests to
+the payment processor becomes non-trivial, prone to error and provider specific.
+On the other hand, with idempotent
+semantics you can rest assured the payment is guaranteed to occur only once with
+many requests.&lt;/p&gt;
+&lt;p&gt;Compared to the previous example, double billing or double ordering is a far more significant
+problem - in a lot of cases it&amp;rsquo;s very undesirable, needs a lot of steps to mitigate, and
+depending on the transaction, can be very damaging to the reputation of a company.&lt;/p&gt;
+&lt;h2 id=&#34;wrap-up&#34;&gt;Wrap-up&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Idempotence can prevent user errors and mitigate networking issues by ensuring that
+a given action results in the same state, no matter how many times we retry it.&lt;/li&gt;
+&lt;li&gt;Some errors can be costlier that others, with the benefits of idempotence easily outweighing
+the costs of implementation.&lt;/li&gt;
+&lt;li&gt;With that in mind, when choosing third-party providers, it may be wise to consider idempotence -
+especially with payment APIs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In one of my next posts I will provide an example how you can make a non-idempotent
+resource idempotent by adding an &lt;code&gt;IdempotenceID&lt;/code&gt; header to the interface. Stay tuned!&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>The compounding of habits</title>
+       <link>http://localhost:1313/posts/habits-you-are-what-you-do/</link>
+       <pubDate>Sat, 18 Jul 2020 23:33:13 +0200</pubDate>
+       
+       <guid>http://localhost:1313/posts/habits-you-are-what-you-do/</guid>
+       <description>&lt;p&gt;&lt;em&gt;Authors Note: This post was edited on 2022-11-27, cleaning up some sentences
+and changing the title from the pretentious and nonsensical &amp;ldquo;Habits: You are what you do&amp;rdquo;
+to &amp;ldquo;The compounding of habits&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;At some point in our lives, we are forced to face one simple truth - the time
+we have on this earth is valuable and finite. Not a single
+person so far was documented to live forever - the best offer I&amp;rsquo;ve seen only applies
+&lt;em&gt;after&lt;/em&gt; we die.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a realization we come to terms with many times as we age. Every moment begins to
+count. We understand it becomes necessary to use our time wisely and deliberately
+if we wish to better ourselves. Be healthier. Go out. Consume less and create more.
+Floss.&lt;/p&gt;
+&lt;p&gt;But decisions are &lt;em&gt;hard&lt;/em&gt;. Sticking to decisions is harder. Some goals are impossible to reach
+fast and easy, by just making one decision. They demand &lt;em&gt;consistently&lt;/em&gt; making the right decision.
+That&amp;rsquo;s where habits come in.&lt;/p&gt;
+&lt;h2 id=&#34;habits-stack-up&#34;&gt;Habits Stack Up&lt;/h2&gt;
+&lt;p&gt;I drink 2 to 4 coffees a day, and I have been doing so for a couple of years.
+Nothing unusual - one or two shots each morning and one in the afternoon after lunch.
+Napkin math says I&amp;rsquo;ve guzzled down somewhere between 700 and 1200 coffees in the past year.
+That&amp;rsquo;s starting to sound impressive.&lt;/p&gt;
+&lt;p&gt;A shot of espresso contains
+&lt;a href=&#34;https://www.caffeineinformer.com/caffeine-content/espresso&#34;&gt;anywhere between 25mg to 214mg of caffeine&lt;/a&gt;.
+For the sake of simplicity, let&amp;rsquo;s say it contains 100mg. Drinking a 1000 espressos contains
+a 100g of caffeine. &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/books/NBK532910/&#34;&gt;That&amp;rsquo;s about 10 lethal doses&lt;/a&gt;.
+Over the time of one year I&amp;rsquo;ve consumed
+enough coffee to kill two to three nuclear families. &lt;strong&gt;Doing something small every day
+can have big results over a long period of time&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Five hundred push-ups.&lt;/li&gt;
+&lt;li&gt;A hundred books read.&lt;/li&gt;
+&lt;li&gt;A thousand hours of piano practice.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All things that sound daunting, yet achievable - a rep, page, or espresso at a time.&lt;/p&gt;
+&lt;h2 id=&#34;habits-short-circuit-decisions&#34;&gt;Habits Short-circuit Decisions&lt;/h2&gt;
+&lt;p&gt;Doing anything out of the ordinary requires effort.
+I want to be healthier - that&amp;rsquo;s a decision. I&amp;rsquo;ll eat salad for lunch two times a week, a
+nice small start - another one. On Tuesdays and Saturdays you will make
+the hardest decisions yet - will I order a salad, or a pizza?&lt;/p&gt;
+&lt;p&gt;On the other hand, habits are just things you do without giving them much thought.
+You have dinner and watch TV. You brush your teeth before bedtime. You walk your dog,
+go for a jog, make coffee and have breakfast in the same order most mornings.
+You&amp;rsquo;re used to it. That&amp;rsquo;s just how you roll.&lt;/p&gt;
+&lt;p&gt;You don&amp;rsquo;t &lt;em&gt;need&lt;/em&gt; to make a &lt;em&gt;decision&lt;/em&gt; to drink coffee this morning.
+The whole 7 minutes it took you from bed to coffee the conscious part
+of you was doing other stuff. It&amp;rsquo;s easy and it feels good. The thing is - you &lt;em&gt;didn&amp;rsquo;t&lt;/em&gt; make
+that decision right now. You were there for the ride.
+There aren&amp;rsquo;t many occasions a person just sits down and takes a few minutes to weigh
+the pros and cons of making a coffee. You&amp;rsquo;ve chosen what to do a long time ago, the moment
+you&amp;rsquo;ve acquired the habit.&lt;/p&gt;
+&lt;h2 id=&#34;wrap-up&#34;&gt;Wrap-up&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Often we find ourselves in need of bettering our lives. To do so requires
+achieving goals by taking &lt;em&gt;decisive&lt;/em&gt; action.&lt;/li&gt;
+&lt;li&gt;Some of these goals - like eating healthier, quitting coffee or
+getting good at the piano - aren&amp;rsquo;t driven by one big decision, but rather
+by consistently committing to lot of small ones.&lt;/li&gt;
+&lt;li&gt;Your past self takes part in making certain decisions for the current you through your habits.&lt;/li&gt;
+&lt;li&gt;Repeating a habit is easier than acting against it.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+     </item>
+   
+ </channel>
+</rss>

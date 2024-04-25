@@ -1,21 +1,55 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
-   <title>service_reliability on nkvl</title>
+   <title>Service_reliability on nkvl</title>
    <link>https://nkvl.xyz/tags/service_reliability/</link>
-   <description>Recent content in service_reliability on nkvl</description>
+   <description>Recent content in Service_reliability on nkvl</description>
    <generator>Hugo -- gohugo.io</generator>
    <language>en-us</language>
-   <copyright>Copyright &amp;copy; 2022 - Nikola Vlahovic</copyright>
+   <copyright>Copyright &amp;copy; 2020-2024  Nikola Vlahovic</copyright>
    <lastBuildDate>Sun, 19 Jul 2020 15:32:00 +0200</lastBuildDate>
    
        <atom:link href="https://nkvl.xyz/tags/service_reliability/index.xml" rel="self" type="application/rss+xml" />
    
    
      <item>
+       <title>Mentions: Good Strategy, Bad Strategy by Richard Rumelt</title>
+       <link>https://nkvl.xyz/posts/2024-04-25-mentions-good-strategy-bad-strategy/</link>
+       <pubDate>Thu, 25 Apr 2024 21:42:03 +0200</pubDate>
+       
+       <guid>https://nkvl.xyz/posts/2024-04-25-mentions-good-strategy-bad-strategy/</guid>
+       <description>&lt;p&gt;Rumelt&amp;rsquo;s book is like a luxorious chocolate brownie: dense, deeply flavourful
+and hard to put down.&lt;/p&gt;
+&lt;p&gt;Key topics are how to identify bad strategies,
+and the essential parts (or kernel) of a good strategy: &lt;em&gt;diagnosis&lt;/em&gt;, &lt;em&gt;guiding policy&lt;/em&gt;
+and a &lt;em&gt;set of coherent actions&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;It dives deep into all of these, with plenty of case studies providing
+for an enriching and brain wrinkling experience.&lt;/p&gt;
+&lt;p&gt;Easily one of the best non-fiction books I&amp;rsquo;ve read. I&amp;rsquo;ll be coming back to it.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>About Mentions</title>
+       <link>https://nkvl.xyz/posts/2024-04-25-honorable-mentions/</link>
+       <pubDate>Thu, 25 Apr 2024 20:28:56 +0200</pubDate>
+       
+       <guid>https://nkvl.xyz/posts/2024-04-25-honorable-mentions/</guid>
+       <description>&lt;p&gt;Like most dark deniziens of the internet, I would likely turn to dust without
+frequent intravenous injections of data.
+After a sea of noise,
+the supplier brings a first class dose.&lt;/p&gt;
+&lt;p&gt;Provocative, inspiring, clever.
+Hilarious, surprising or only kinda amusing.
+Some things I find worth a mention.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be using the #mentions tag for those.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
        <title>Blogging should be simple</title>
        <link>https://nkvl.xyz/posts/blogging-should-be-simple/</link>
-       <pubDate>Sun, 27 Nov 2022 00:00:00 +0100</pubDate>
+       <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
        
        <guid>https://nkvl.xyz/posts/blogging-should-be-simple/</guid>
        <description>&lt;p&gt;While designing this blog I&amp;rsquo;ve experimented
@@ -73,25 +107,25 @@ The following is a non-exhaustive list of what else could change:&lt;/p&gt;
 &lt;li&gt;What &amp;ldquo;local&amp;rdquo; is.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Keep it simple, if you can.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://rewis.io/s/u/zH2/&#34;&gt;GDPR ruling for serving a website with fonts from Google Fonts&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://rewis.io/s/u/zH2/&#34;&gt;GDPR ruling for serving a website with fonts from Google Fonts&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
      </item>
    
      <item>
        <title>Blog Update #1</title>
        <link>https://nkvl.xyz/posts/blog-update-1/</link>
-       <pubDate>Mon, 14 Nov 2022 00:00:00 +0100</pubDate>
+       <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
        
        <guid>https://nkvl.xyz/posts/blog-update-1/</guid>
        <description>&lt;p&gt;This website has been inactive for quite a while now.
-&amp;ldquo;This is about to change!&amp;quot;, said the heart.
+&amp;ldquo;This is about to change!&amp;rdquo;, said the heart.
 But you and I know better than that.&lt;/p&gt;
 &lt;p&gt;The rhythm of posts will continue to be sporadic.
 New articles will show up every other now-and-then,
@@ -111,22 +145,23 @@ collect your data, but my hosting provider does.&lt;/p&gt;
      </item>
    
      <item>
-       <title>On Idempotent HTTP Requests</title>
+       <title>Retrying after the inevitable failure: Idempotent HTTP Requests</title>
        <link>https://nkvl.xyz/posts/idempotent-http-requests-intro/</link>
        <pubDate>Sun, 19 Jul 2020 15:32:00 +0200</pubDate>
        
        <guid>https://nkvl.xyz/posts/idempotent-http-requests-intro/</guid>
-       <description>&lt;p&gt;Idempotence is a common property among
+       <description>&lt;p&gt;Idempotence, while it may sound like something men get in their fifties, is a common property among
 web service resources. Many times it&amp;rsquo;s a given, but sometimes
 you need to explicitly facilitate it yourself due to specific business and
 reliability requirements. This post aims to clarify what is idempotence and
 how the property provides certain safety guarantees which help us develop
-more reliable and predictable web services.&lt;/p&gt;
+more reliable and predictable web services. A subsequent post will detail how
+one can implement idempotence for endpoints which don&amp;rsquo;t implicitly provide it.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A request is idempotent if the intended effect of multiple identical
 requests is the same as the effect of one such request.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;From the previous definition, read-only
+&lt;p&gt;From the previous definition read-only
 requests are clearly idempotent. Additionally, &lt;code&gt;DELETE&lt;/code&gt; and &lt;code&gt;PUT&lt;/code&gt; requests
 should be implemented as such according to RFC7231. Lets break it down.&lt;/p&gt;
 &lt;h2 id=&#34;idempotent-requests&#34;&gt;Idempotent requests&lt;/h2&gt;
@@ -193,21 +228,21 @@ the costs of implementation.&lt;/li&gt;
 &lt;li&gt;With that in mind, when choosing third-party providers, it may be wise to consider idempotence -
 especially with payment APIs.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;authors-note&#34;&gt;Authors Note&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;On 2022-11-27, the title was changed from &amp;ldquo;Retrying after the inevitable failure: Idempotent HTTP Requests&amp;rdquo;
-to &amp;ldquo;On Idempotent HTTP Requests&amp;rdquo;. Along some other minor editorial changes,
-I&amp;rsquo;ve also removed the announcements for another post demoing an implementation
-since I&amp;rsquo;m focusing on other things right now.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In one of my next posts I will provide an example how you can make a non-idempotent
+resource idempotent by adding an &lt;code&gt;IdempotenceID&lt;/code&gt; header to the interface. Stay tuned!&lt;/p&gt;
 </description>
      </item>
    
      <item>
-       <title>The Compounding of Habits</title>
+       <title>The compounding of habits</title>
        <link>https://nkvl.xyz/posts/habits-you-are-what-you-do/</link>
        <pubDate>Sat, 18 Jul 2020 23:33:13 +0200</pubDate>
        
        <guid>https://nkvl.xyz/posts/habits-you-are-what-you-do/</guid>
-       <description>&lt;p&gt;At some point in our lives, we are forced to face one simple truth - the time
+       <description>&lt;p&gt;&lt;em&gt;Authors Note: This post was edited on 2022-11-27, cleaning up some sentences
+and changing the title from the pretentious and nonsensical &amp;ldquo;Habits: You are what you do&amp;rdquo;
+to &amp;ldquo;The compounding of habits&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;At some point in our lives, we are forced to face one simple truth - the time
 we have on this earth is valuable and finite. Not a single
 person so far was documented to live forever - the best offer I&amp;rsquo;ve seen only applies
 &lt;em&gt;after&lt;/em&gt; we die.&lt;/p&gt;
@@ -262,10 +297,6 @@ by consistently committing to lot of small ones.&lt;/li&gt;
 &lt;li&gt;Your past self takes part in making certain decisions for the current you through your habits.&lt;/li&gt;
 &lt;li&gt;Repeating a habit is easier than acting against it.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;authors-note&#34;&gt;Authors Note&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;This post was edited on 2022-11-27, cleaning up some sentences
-and changing the title from the pretentious and nonsensical &amp;ldquo;Habits: You are what you do&amp;rdquo;
-to &amp;ldquo;The Compounding of Habits&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
 </description>
      </item>
    
