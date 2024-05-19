@@ -2,26 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
    <title>Rambling on nkvl</title>
-   <link>http://localhost:1313/tags/rambling/</link>
+   <link>https://nkvl.xyz/tags/rambling/</link>
    <description>Recent content in Rambling on nkvl</description>
    <generator>Hugo -- gohugo.io</generator>
    <language>en-us</language>
    <copyright>Copyright &amp;copy; 2020-2024  Nikola Vlahovic</copyright>
-   <lastBuildDate>Thu, 25 Apr 2024 19:51:21 +0200</lastBuildDate>
+   <lastBuildDate>Sun, 19 May 2024 15:48:00 +0200</lastBuildDate>
    
-       <atom:link href="http://localhost:1313/tags/rambling/index.xml" rel="self" type="application/rss+xml" />
+       <atom:link href="https://nkvl.xyz/tags/rambling/index.xml" rel="self" type="application/rss+xml" />
    
    
      <item>
+       <title>Mentions: Factorio</title>
+       <link>https://nkvl.xyz/posts/2024-05-19-mentions-factorio/</link>
+       <pubDate>Sun, 19 May 2024 16:01:11 +0200</pubDate>
+       
+       <guid>https://nkvl.xyz/posts/2024-05-19-mentions-factorio/</guid>
+       <description>&lt;p&gt;The factory must grow.&lt;br&gt;
+Unravelling, from web to thread.&lt;br&gt;
+Pieces fall into place one by one.&lt;br&gt;
+A job well done, but perfection, tantalizing.&lt;br&gt;
+A new horizon.&lt;br&gt;
+The factory must grow.&lt;/p&gt;
+&lt;p&gt;I have spent numerous sleepless nights coming up with factory layouts,
+expanding train networks, and balancing conveyor belts.
+The game weaves together numerous systems into a
+beautiful and sophisticated wellspring of challenge and industrial beauty.&lt;/p&gt;
+&lt;p&gt;Factorio is a 2d top-down factory Big-A Automation game. You&amp;rsquo;ve just crash landed
+onto an alien planet, and you want to go back to space. You don&amp;rsquo;t have
+anything but your wits, and the heap of scrap that used to be your ship.&lt;/p&gt;
+&lt;p&gt;You start off in typical survival-crafting fashion: mining, hand-crafting parts
+and machines. But not for long. You begin unlocking more advanced buildings and parts.
+The research starts requiring more and more
+science packs. Recipes get more complicated, and their resources are
+scattered accross far flung parts of the map. To progress, you need to craft and build
+an enourmous amount of stuff, plenty of which you can not even craft manually. It&amp;rsquo;s time
+to start automating.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s where the real game begins. You refine, combine, connect and move dozens of parts and buildings,
+creating and managing a supply chain of increasing complexity, just to get that one next thing. Once you get it,
+you realize you&amp;rsquo;re going to need plenty more of said thing - then you scale-up and fix bottle necks.
+Build, debug, scale-up, repeat. The siren song of Factorio.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>Rambling: Out of bounds</title>
+       <link>https://nkvl.xyz/posts/2024-04-25-what-we-face/</link>
+       <pubDate>Sun, 19 May 2024 15:48:00 +0200</pubDate>
+       
+       <guid>https://nkvl.xyz/posts/2024-04-25-what-we-face/</guid>
+       <description>&lt;p&gt;Filled with doubt, fear, and curiosity a mind is about to
+be confronted with what it perceives as it&amp;rsquo;s limits.&lt;/p&gt;
+&lt;p&gt;What if this wall never was there, and all my life I have been a fool?&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
        <title>Mentions: Good Strategy, Bad Strategy by Richard Rumelt</title>
-       <link>http://localhost:1313/posts/2024-04-25-mentions-good-strategy-bad-strategy/</link>
+       <link>https://nkvl.xyz/posts/2024-04-25-mentions-good-strategy-bad-strategy/</link>
        <pubDate>Thu, 25 Apr 2024 21:42:03 +0200</pubDate>
        
-       <guid>http://localhost:1313/posts/2024-04-25-mentions-good-strategy-bad-strategy/</guid>
+       <guid>https://nkvl.xyz/posts/2024-04-25-mentions-good-strategy-bad-strategy/</guid>
        <description>&lt;p&gt;Rumelt&amp;rsquo;s book is like a luxorious chocolate brownie: dense, deeply flavourful
 and hard to put down.&lt;/p&gt;
-&lt;p&gt;Key topics are how to identify bad strategies using a few halmarks,
-and the &lt;em&gt;essential&lt;/em&gt; parts (or kernel) of a good strategy: &lt;em&gt;diagnosis&lt;/em&gt;, &lt;em&gt;guiding policy&lt;/em&gt;
+&lt;p&gt;Key topics are how to identify bad strategies,
+and the essential parts (or kernel) of a good strategy: &lt;em&gt;diagnosis&lt;/em&gt;, &lt;em&gt;guiding policy&lt;/em&gt;
 and a &lt;em&gt;set of coherent actions&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;It dives deep into all of these, with plenty of case studies providing
 for an enriching and brain wrinkling experience.&lt;/p&gt;
@@ -30,11 +75,11 @@ for an enriching and brain wrinkling experience.&lt;/p&gt;
      </item>
    
      <item>
-       <title>Mentions</title>
-       <link>http://localhost:1313/posts/2024-04-25-honorable-mentions/</link>
+       <title>About Mentions</title>
+       <link>https://nkvl.xyz/posts/2024-04-25-honorable-mentions/</link>
        <pubDate>Thu, 25 Apr 2024 20:28:56 +0200</pubDate>
        
-       <guid>http://localhost:1313/posts/2024-04-25-honorable-mentions/</guid>
+       <guid>https://nkvl.xyz/posts/2024-04-25-honorable-mentions/</guid>
        <description>&lt;p&gt;Like most dark deniziens of the internet, I would likely turn to dust without
 frequent intravenous injections of data.
 After a sea of noise,
@@ -47,24 +92,11 @@ Some things I find worth a mention.&lt;/p&gt;
      </item>
    
      <item>
-       <title>Out of bounds</title>
-       <link>http://localhost:1313/posts/2024-04-25-what-we-face/</link>
-       <pubDate>Thu, 25 Apr 2024 19:51:21 +0200</pubDate>
-       
-       <guid>http://localhost:1313/posts/2024-04-25-what-we-face/</guid>
-       <description>&lt;p&gt;Filled with doubt, fear, and curiosity a mind is about to
-collide with what it perceives as it&amp;rsquo;s bounds.&lt;/p&gt;
-&lt;p&gt;Is this okay? Can I do this?&lt;/p&gt;
-&lt;p&gt;What if this wall never was there, and all my life I have been a fool?&lt;/p&gt;
-</description>
-     </item>
-   
-     <item>
        <title>Blogging should be simple</title>
-       <link>http://localhost:1313/posts/blogging-should-be-simple/</link>
+       <link>https://nkvl.xyz/posts/blogging-should-be-simple/</link>
        <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
        
-       <guid>http://localhost:1313/posts/blogging-should-be-simple/</guid>
+       <guid>https://nkvl.xyz/posts/blogging-should-be-simple/</guid>
        <description>&lt;p&gt;While designing this blog I&amp;rsquo;ve experimented
 with fonts from Google Fonts, which is a service
 providing a trove of wonderful typefaces. Eventually, I found
@@ -133,10 +165,10 @@ The following is a non-exhaustive list of what else could change:&lt;/p&gt;
    
      <item>
        <title>Blog Update #1</title>
-       <link>http://localhost:1313/posts/blog-update-1/</link>
+       <link>https://nkvl.xyz/posts/blog-update-1/</link>
        <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
        
-       <guid>http://localhost:1313/posts/blog-update-1/</guid>
+       <guid>https://nkvl.xyz/posts/blog-update-1/</guid>
        <description>&lt;p&gt;This website has been inactive for quite a while now.
 &amp;ldquo;This is about to change!&amp;rdquo;, said the heart.
 But you and I know better than that.&lt;/p&gt;
@@ -159,10 +191,10 @@ collect your data, but my hosting provider does.&lt;/p&gt;
    
      <item>
        <title>Retrying after the inevitable failure: Idempotent HTTP Requests</title>
-       <link>http://localhost:1313/posts/idempotent-http-requests-intro/</link>
+       <link>https://nkvl.xyz/posts/idempotent-http-requests-intro/</link>
        <pubDate>Sun, 19 Jul 2020 15:32:00 +0200</pubDate>
        
-       <guid>http://localhost:1313/posts/idempotent-http-requests-intro/</guid>
+       <guid>https://nkvl.xyz/posts/idempotent-http-requests-intro/</guid>
        <description>&lt;p&gt;Idempotence, while it may sound like something men get in their fifties, is a common property among
 web service resources. Many times it&amp;rsquo;s a given, but sometimes
 you need to explicitly facilitate it yourself due to specific business and
@@ -248,10 +280,10 @@ resource idempotent by adding an &lt;code&gt;IdempotenceID&lt;/code&gt; header t
    
      <item>
        <title>The compounding of habits</title>
-       <link>http://localhost:1313/posts/habits-you-are-what-you-do/</link>
+       <link>https://nkvl.xyz/posts/habits-you-are-what-you-do/</link>
        <pubDate>Sat, 18 Jul 2020 23:33:13 +0200</pubDate>
        
-       <guid>http://localhost:1313/posts/habits-you-are-what-you-do/</guid>
+       <guid>https://nkvl.xyz/posts/habits-you-are-what-you-do/</guid>
        <description>&lt;p&gt;&lt;em&gt;Authors Note: This post was edited on 2022-11-27, cleaning up some sentences
 and changing the title from the pretentious and nonsensical &amp;ldquo;Habits: You are what you do&amp;rdquo;
 to &amp;ldquo;The compounding of habits&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
