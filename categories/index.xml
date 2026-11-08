@@ -14,11 +14,53 @@
    
    
      <item>
+       <title>Mentions: Typst</title>
+       <link>https://nkvl.xyz/posts/2026/mentions-typst/</link>
+       <pubDate>Sun, 08 Nov 2026 23:49:00 +0100</pubDate>
+       <author>/home/nikola/repos/nkvl-xyz/content/posts/2026-11-08-mentions-typst.md (Nikola Vlahovic)</author>
+       <guid>https://nkvl.xyz/posts/2026/mentions-typst/</guid>
+       <description>&lt;p&gt;It is a truth universally acknowledged, that a man in
+possession of a passable manuscript, must be in want
+of an easy to use and powerful typesetting system. Like
+&lt;a href=&#34;https://github.com/typst/typst&#34;&gt;Typst&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I needed to create some stylish, legible, print-friendly PDFs
+for a TTRPG jam&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, but I did not have the time
+to get good at using graphics design tools.
+Being a software engineer,
+I decided to spend time learning a new markup language instead.
+Fortunately, the documentation was easy to digest, the
+language more familiar looking than LaTeX&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, and
+&lt;code&gt;typst watch&lt;/code&gt; lets you setup a live preview
+easily, providing for a quick onboarding and development
+feedback loop.&lt;/p&gt;
+&lt;p&gt;I was pleased with the process and result, and would
+use it again in the future.&lt;/p&gt;
+&lt;p&gt;A few simple examples are available
+in &lt;a href=&#34;https://github.com/Collapsologist/typst-ttrpg-templates/&#34;&gt;my TTRPG templates Github repository&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The &lt;a href=&#34;https://itch.io/jam/triptech2&#34;&gt;TripTech&lt;sup&gt;2&lt;/sup&gt; Jam&lt;/a&gt; hosted by
+&lt;a href=&#34;https://lordgt.itch.io/&#34;&gt;LionHeart Games&lt;/a&gt;, is a game jam where
+you create a tri-fold pamphlet module for the Mothership TTRPG.
+My submission, &lt;a href=&#34;https://collapsologist.itch.io/the-seven-sigma-hotel&#34;&gt;The Seven Sigma Hotel&lt;/a&gt;, is free to download.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;In spite of me previously using LaTeX for reports and such
+in my university days.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+     </item>
+   
+     <item>
        <title>Mentions: Poor Things</title>
-       <link>https://nkvl.xyz/posts/2024-08-08-mentions-poor-things/</link>
+       <link>https://nkvl.xyz/posts/2024/mentions-poor-things/</link>
        <pubDate>Mon, 08 Jul 2024 21:53:49 +0200</pubDate>
        <author>/home/nikola/repos/nkvl-xyz/content/posts/2024-08-08-mentions-poor-things.md (Nikola Vlahovic)</author>
-       <guid>https://nkvl.xyz/posts/2024-08-08-mentions-poor-things/</guid>
+       <guid>https://nkvl.xyz/posts/2024/mentions-poor-things/</guid>
        <description>&lt;p&gt;It&amp;rsquo;s as if Pinnochio and Frankenstein were patched
 through a chain of psychedelic guitar effects.&lt;/p&gt;
 &lt;p&gt;I loved this movie, especially the playful and strange
@@ -28,10 +70,10 @@ soundtrack.&lt;/p&gt;
    
      <item>
        <title>Rambling: Monbijou</title>
-       <link>https://nkvl.xyz/posts/2024-08-08-ramblings-monbijou/</link>
+       <link>https://nkvl.xyz/posts/2024/rambling-monbijou/</link>
        <pubDate>Mon, 08 Jul 2024 21:49:09 +0200</pubDate>
        <author>/home/nikola/repos/nkvl-xyz/content/posts/2024-08-08-ramblings-monbijou.md (Nikola Vlahovic)</author>
-       <guid>https://nkvl.xyz/posts/2024-08-08-ramblings-monbijou/</guid>
+       <guid>https://nkvl.xyz/posts/2024/rambling-monbijou/</guid>
        <description>&lt;p&gt;I remember the first time I fell in love with this city.
 Opposite the Bode Museum, in the embrace of Monbijou Park and the
 river Spree, stretches a bustling promenade. Partially sheltered by
@@ -49,10 +91,10 @@ In May and in amber.&lt;/p&gt;
    
      <item>
        <title>Mentions: Factorio</title>
-       <link>https://nkvl.xyz/posts/2024-05-19-mentions-factorio/</link>
+       <link>https://nkvl.xyz/posts/2024/mentions-factorio/</link>
        <pubDate>Sun, 19 May 2024 16:01:11 +0200</pubDate>
        <author>/home/nikola/repos/nkvl-xyz/content/posts/2024-05-19-mentions-factorio.md (Nikola Vlahovic)</author>
-       <guid>https://nkvl.xyz/posts/2024-05-19-mentions-factorio/</guid>
+       <guid>https://nkvl.xyz/posts/2024/mentions-factorio/</guid>
        <description>&lt;p&gt;The factory must grow.&lt;br&gt;
 Unravelling, from web to thread.&lt;br&gt;
 Pieces fall into place one by one.&lt;br&gt;
@@ -82,10 +124,10 @@ Build, debug, scale-up, repeat. The siren song of Factorio.&lt;/p&gt;
    
      <item>
        <title>Rambling: Out of bounds</title>
-       <link>https://nkvl.xyz/posts/2024-04-25-what-we-face/</link>
+       <link>https://nkvl.xyz/posts/2024/rambling-out-of-bounds/</link>
        <pubDate>Sun, 19 May 2024 15:48:00 +0200</pubDate>
        <author>/home/nikola/repos/nkvl-xyz/content/posts/2024-04-25-what-we-face.md (Nikola Vlahovic)</author>
-       <guid>https://nkvl.xyz/posts/2024-04-25-what-we-face/</guid>
+       <guid>https://nkvl.xyz/posts/2024/rambling-out-of-bounds/</guid>
        <description>&lt;p&gt;Filled with doubt, fear, and curiosity a mind is about to
 be confronted with what it perceives as it&amp;rsquo;s limits.&lt;/p&gt;
 &lt;p&gt;What if this wall never was there, and all my life I have been a fool?&lt;/p&gt;
@@ -94,10 +136,10 @@ be confronted with what it perceives as it&amp;rsquo;s limits.&lt;/p&gt;
    
      <item>
        <title>Mentions: Good Strategy, Bad Strategy by Richard Rumelt</title>
-       <link>https://nkvl.xyz/posts/2024-04-25-mentions-good-strategy-bad-strategy/</link>
+       <link>https://nkvl.xyz/posts/2024/mentions-good-strategy-bad-strategy-by-richard-rumelt/</link>
        <pubDate>Thu, 25 Apr 2024 21:42:03 +0200</pubDate>
        <author>/home/nikola/repos/nkvl-xyz/content/posts/2024-04-25-mentions-good-strategy-bad-strategy.md (Nikola Vlahovic)</author>
-       <guid>https://nkvl.xyz/posts/2024-04-25-mentions-good-strategy-bad-strategy/</guid>
+       <guid>https://nkvl.xyz/posts/2024/mentions-good-strategy-bad-strategy-by-richard-rumelt/</guid>
        <description>&lt;p&gt;Rumelt&amp;rsquo;s book is like a luxorious chocolate brownie: dense, deeply flavourful
 and hard to put down.&lt;/p&gt;
 &lt;p&gt;Key topics are how to identify bad strategies,
@@ -111,10 +153,10 @@ for an enriching and brain wrinkling experience.&lt;/p&gt;
    
      <item>
        <title>About Mentions</title>
-       <link>https://nkvl.xyz/posts/2024-04-25-honorable-mentions/</link>
+       <link>https://nkvl.xyz/posts/2024/about-mentions/</link>
        <pubDate>Thu, 25 Apr 2024 20:28:56 +0200</pubDate>
        <author>/home/nikola/repos/nkvl-xyz/content/posts/2024-04-25-honorable-mentions.md (Nikola Vlahovic)</author>
-       <guid>https://nkvl.xyz/posts/2024-04-25-honorable-mentions/</guid>
+       <guid>https://nkvl.xyz/posts/2024/about-mentions/</guid>
        <description>&lt;p&gt;Like most dark deniziens of the internet, I would likely turn to dust without
 a regular bite of bytes.
 Sometimes the stream delivers a first class dose.&lt;/p&gt;
